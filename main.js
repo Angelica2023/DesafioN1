@@ -32,12 +32,6 @@ console.log(sonIguales("test", "test"));
 
    
 
-
-
-
-
-
-
 function elevarAlCuadrado(num) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
@@ -84,3 +78,32 @@ function elevarAlCuadrado(num) {
             }
           }
 
+          function elevarAlCubo(num) {
+            // Devuelve el valor de "num" elevado al cuadrado
+            // ojo: No es raiz cuadrada!
+            // Tu código:
+            
+              return num ** 3 ;
+        
+              console.log(elevarAlCubo(3)); 
+              console.log(elevarAlCubo(0)); 
+              console.log(elevarAlCubo(-5)); 
+            }
+
+
+            function elevar(num, exponent) {
+              // Devuelve el valor de "num" elevado al exponente dado en "exponent"
+              // Tu código:
+             
+                let resultado = 1;
+                for (let i = 0; i < exponent; i++) {
+                  resultado *= num;
+                }
+                return resultado;
+                console.log(elevar(2,2)); 
+                console.log(elevar(2,3)); 
+                console.log(elevar(0,5)); 
+                console.log(elevar(10,1)); 
+                
+              }
+            

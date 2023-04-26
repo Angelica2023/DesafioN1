@@ -87,12 +87,25 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  return num ** 3;
 }
+
+
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-}
+ 
+    let resultado = 1;
+    for (let i = 0; i < exponent; i++) {
+      resultado *= num;
+    }
+    return resultado;
+  }
+
+
+
+
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
