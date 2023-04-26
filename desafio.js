@@ -24,31 +24,65 @@ function sonIguales(elemento1, elemento2) {
   // Devuelve "true" si "elemento1" y "elemento2" son estrictamente iguales
   // De lo contrario, devuelve "false"
   //↓↓↓ Tu código: ↓↓↓ */
+if(elemento1 === elemento2)
+{
+return true;}
+else {return false
+
+}
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+  
+    if (str1.length === str2.length) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+  
+   
+    if(num % 2 === 0)
+    {
+    return true;}
+    else {return false
+    
+    }
+  }
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  if(num % 2 === 1)
+  {
+  return true;}
+  else {return false
+  
+  }
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-}
+  
+    return num * num;
+  }
+
+
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
